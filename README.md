@@ -27,7 +27,7 @@ The app focuses on **clean UI**, **smooth UX** and uses **local state management
 - **React Native** 
 - **Expo**
 - **TyperScript**
-- **Redux / Context API** 
+- **Redux API** 
 - **React Navigation** 
 
 ---
@@ -71,16 +71,17 @@ The app focuses on **clean UI**, **smooth UX** and uses **local state management
 ---
 
 ## Folder Structure
-
+   
+   ```bash
 YipProductApp/
 │
 ├─ src/
-│  ├─ components/
-│  ├─ screens/
-│  ├─ state/   (Redux setup)
-│  └─ utils/
-├─ assets/
-├─ App.tsx
+│  ├─ components/   # Reusable UI components
+│  ├─ screens/      # Screens for app navigation
+│  ├─ state/        # Redux setup
+│  └─ utils/        # Helper functions
+├─ assets/          # Images and icons
+├─ App.tsx          # Entry point
 ├─ package.json
 └─ README.md
 
