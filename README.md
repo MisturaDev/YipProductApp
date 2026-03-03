@@ -1,6 +1,6 @@
 # YipProductApp
 
-A mobile app built with **React Native** that allows users to upload up to 5 products, each with a name, photo and price and notifies the user when the product limit is reached.
+A mobile app built with **React Native** that allows users to upload up to 5 products.
 
 ---
 
@@ -84,7 +84,7 @@ YipProductApp/
 ├─ App.tsx          # Entry point
 ├─ package.json
 └─ README.md
-
+```
 
 ---
 
