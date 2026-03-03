@@ -91,10 +91,6 @@ YipProductApp/
 └─ README.md
 ```
 
----
-
-## Screenshots
-
 
 ---
 
