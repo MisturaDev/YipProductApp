@@ -1,6 +1,6 @@
 # YipProductApp
 
-A mobile app built with **React Native** that allows users to upload up to 5 products.
+A mobile app built with **React Native** and **Expo** that allows users to upload up to 5 products.
 
 ---
 
@@ -19,7 +19,7 @@ The app focuses on **clean UI**, **smooth UX** and uses **local state management
 - Store product details (name, photo, price)
 - Notifications when the product limit is reached
 - Clean and responsive UI
-- Uses **local state management** (Redux / Context API)
+- Uses **local state management** (Redux API)
 
 ---
 
@@ -54,8 +54,8 @@ The app focuses on **clean UI**, **smooth UX** and uses **local state management
 5. Open on your device using Expo Go or Dev Client
 
 6. Configure Firebase:
-   Create a Firebase project
-   Copy your config into firebase.ts
+   - Create a Firebase project
+   - Copy your config into firebase.ts
 
 
 ---
