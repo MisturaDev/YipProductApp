@@ -8,6 +8,7 @@ A mobile app built with **React Native** and **Expo** that allows users to uploa
 YipProductApp is a mobile application designed for a simple product management workflow. Users can:
 - Upload up to 5 products.
 - Input product name, photo and price.
+- Add, edit and delete products
 - Receive notifications when the product limit is reached.
 
 The app focuses on **clean UI**, **smooth UX** and uses **local state management** to manage product data.
