@@ -1,6 +1,6 @@
 # YipProductApp
 
-A mobile app built with **React Native** that allows users to upload up to 5 products, each with a name, photo, and price and notifies the user when the product limit is reached.
+A mobile app built with **React Native** that allows users to upload up to 5 products, each with a name, photo and price and notifies the user when the product limit is reached.
 
 ---
 
@@ -24,39 +24,78 @@ The app focuses on **clean UI**, **smooth UX** and uses **local state management
 ---
 
 ## Tech Stack
-- **React Native** (for mobile app)
-- **Expo** (for development)
-- **Redux / Context API** (for local state management)
-- **React Navigation** (if used for navigation)
-- **Other libraries:** `expo-image-picker` for photos, `react-native-paper` or `react-native-elements` for UI components
+- **React Native** 
+- **Expo**
+- **TyperScript**
+- **Redux / Context API** 
+- **React Navigation** 
 
 ---
 
 ## Installation
 
 1. Clone the repository:
-```bash
-git clone https://github.com/MisturaDev/YipProductApp.git
+   ```bash
+   git clone https://github.com/MisturaDev/YipProductApp.git
 
 2. Navigate into the project folder:
     ```bash
-    cd wallet-app
+    cd YipProductApp
 
 3. Install dependencies.:
     ```bash
     npm install
 
-4. Configure Firebase:
-- Create a Firebase project
-- Copy your config into firebase.js
-
-5. Run the app (Expo):
+4. Run the app (Expo):
    ```bash
    npx expo start
 
 
+5. Open on your device using Expo Go or Dev Client
+
+
 ---
 
+## Usage
 
+- Open the app.
+
+- Tap the Add Product button.
+
+- Enter name, select photo, and input price.
+
+- Repeat up to 5 products.
+
+- Once the limit is reached, a notification appears.
+
+---
+
+## Folder Structure
+
+YipProductApp/
+│
+├─ src/
+│  ├─ components/
+│  ├─ screens/
+│  ├─ state/   (Redux setup)
+│  └─ utils/
+├─ assets/
+├─ App.tsx
+├─ package.json
+└─ README.md
+
+
+---
+
+## Screenshots
+
+
+---
+
+## Developer
+
+**Mistura Ishola**
+
+ [LinkedIn](https://www.linkedin.com/in/mistura-ishola/)
 
 ---
