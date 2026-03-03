@@ -53,6 +53,10 @@ The app focuses on **clean UI**, **smooth UX** and uses **local state management
 
 5. Open on your device using Expo Go or Dev Client
 
+6. Configure Firebase:
+   Create a Firebase project
+   Copy your config into firebase.ts
+
 
 ---
 
