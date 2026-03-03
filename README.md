@@ -19,7 +19,7 @@ The app focuses on **clean UI**, **smooth UX** and uses **local state management
 - Store product details (name, photo, price)
 - Notifications when the product limit is reached
 - Clean and responsive UI
-- Uses **local state management** (Redux API)
+- Uses **local state management** (Redux)
 
 ---
 
@@ -27,7 +27,7 @@ The app focuses on **clean UI**, **smooth UX** and uses **local state management
 - **React Native** 
 - **Expo**
 - **TyperScript**
-- **Redux API** 
+- **Redux** 
 - **React Navigation** 
 
 ---
